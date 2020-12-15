@@ -1,0 +1,129 @@
+#include<cstdlib> 
+#include "getopt.h"
+#include<cstring>
+#include<iostream>
+#include<iomanip>
+#include "rapidjson/document.h"
+#include <fstream>
+
+using std::string;
+using std::setw;
+using std::cout;
+using std::endl;
+
+using namespace rapidjson;
+
+extern int HEIGHT = 250;
+extern int WIDTH = 400;
+extern int CHANNELS = 1;
+extern bool USEIMAGESIZE = false;
+
+extern int QUERYTIMES = 1;
+extern int THRESHOLD = 400;
+extern bool KEEPRESIDUAL = true;
+
+enum filetype{IMG, FORMAT, EMPTY};
+extern filetype type = EMPTY;
+extern string input_filename = "";
+extern string file_format = "";
+extern string output_filename = "output.dat";
+
+void show_help();
+void parse_command(int argc, char** argv);
+
+void parse_command(int argc, char** argv)
+{
+	/*
+	 * parse command including:
+	 * height && width && channels
+	 * querytimes && threshold && whether keep residuals
+	 *
+	 * you can simulate spikes from a single image
+	 * or select a folder with a list of images and point the format of the images
+	 * maybe a video in the future
+	 */
+	int c;
+
+	while (1)
+	{
+		int option_index = 0;
+		static struct option long_options[] = {
+			{"config", 			required_argument, 0, 'c'},
+			{"help",  			no_argument,	   0, 'h'},
+		};
+
+		c = getopt_long(argc, argv, "c:h", long_options, &option_index);
+		if (c == -1)
+			break;
+		switch (c)
+		{
+		case 'c':
+		{
+			char inbuffer[256];
+			std::string JsonContent = "";
+			std::ifstream infile(optarg);
+			if (!infile)
+			{
+				cout << "Fail to open file " << optarg << endl;
+				exit(0);
+			}
+			while (!infile.eof())
+			{
+				infile.getline(inbuffer, 255);
+				JsonContent.append(inbuffer);
+			}
+			Document JsonParser;
+			JsonParser.Parse(JsonContent.c_str());
+
+			if (JsonParser.HasMember("width"))
+			{
+				WIDTH = JsonParser["width"].GetInt();
+			}
+			if (JsonParser.HasMember("height"))
+			{
+				HEIGHT = JsonParser["height"].GetInt();
+			}
+			if (JsonParser.HasMember("channels"))
+			{
+				CHANNELS = JsonParser["channels"].GetInt();
+			}
+			if (JsonParser.HasMember("useimagesize"))
+			{
+				USEIMAGESIZE = JsonParser["useimagesize"].GetBool();
+			}
+			if (JsonParser.HasMember("querytimes"))
+			{
+				QUERYTIMES = JsonParser["querytimes"].GetInt();
+			}
+
+			break;
+		}
+		case 'h':
+			show_help();
+			exit(0);
+			break;
+		default:
+			printf("getopt get undefined character code 0%o\n", c);
+			show_help();
+			exit(1);
+			break;
+		}
+	}
+	if (optind < argc) {
+		cout << "not parsed arguments: " << endl;
+		while (optind < argc)
+			cout << argv[optind++] << endl;
+	}
+}
+
+void show_help()
+{
+	/*
+	 * help function
+	 */
+
+	cout << "Usage of spike simulator: " << endl
+		<< "-c or --config:\tthe json file of configuration." << endl
+		<< "-h or --help:\t\tthis usage." << endl << endl
+		<< "For more details, please refer to example.json." << endl;
+}
