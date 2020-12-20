@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\bb48aa24d13cbd49b402545f9d25c64e\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F589C7D2-C1A3-38F7-AF8D-E05680E50D7A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

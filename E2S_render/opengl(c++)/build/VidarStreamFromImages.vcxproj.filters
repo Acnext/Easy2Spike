@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera\camera.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting\light.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh\mesh.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh\model.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\material.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\shader.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\shape.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\skybox.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\texture.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\SImageData.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\bitbuffer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glad\src\glad.c">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui\imgui.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui\imgui_draw.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui\imgui_impl_glfw_gl3.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera\camera.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting\light.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh\mesh.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh\model.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\material.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\shader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\shape.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\skybox.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\texture.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\GaussianBlurGeneric.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\Misc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\SImageData.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\bitbuffer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\gBuffer.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\gBuffer.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\latlongToCube.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\latlongToCube.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\directional.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\directional.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\environment.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\environment.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\integrateIBL.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\integrateIBL.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\irradianceIBL.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\irradianceIBL.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\lightingBRDF.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\lightingBRDF.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\point.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\point.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\prefilterIBL.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\prefilterIBL.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\simple.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\simple.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\postprocess\firstpass.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\postprocess\postprocess.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\postprocess\sao.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\postprocess\sao.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\postprocess\saoBlur.frag">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{E07CAEE1-E3B0-3E37-9DA0-E8EF5291506C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{57E455C7-4249-3CBC-A00A-983632BA68D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{E691E6A4-35CF-32DB-B232-1AC6AFC2F4DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{BF5DEF45-B3EA-3C28-80B0-22D427E08447}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

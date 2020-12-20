@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6E4E7863-609C-373F-8E4C-8435B690A5F9}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>VidarRender</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Vidar\VidarStreamSim\VidarSimOpenGL\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VidarRender.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VidarRender</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Vidar\VidarStreamSim\VidarSimOpenGL\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VidarRender.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VidarRender</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\VidarRender\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">VidarRender.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">VidarRender</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\VidarRender\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">VidarRender.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">VidarRender</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glad\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glfw\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS=1;_SCL_SECURE_NO_WARNINGS=1;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="G:/Vidar/VidarStreamSim/VidarSimOpenGL";WINDOWS;ASSET_PATH="G:/Vidar/VidarStreamSim/VidarSimOpenGL/resources";GLFW_DLL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS=1;_SCL_SECURE_NO_WARNINGS=1;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"G:/Vidar/VidarStreamSim/VidarSimOpenGL\";WINDOWS;ASSET_PATH=\"G:/Vidar/VidarStreamSim/VidarSimOpenGL/resources\";GLFW_DLL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glad\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glfw\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glad\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glfw\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Debug\assimp-vc140-mt.lib;lib\Debug\glfw3dll.lib;lib\Debug\zlibstaticd.lib;lib\Debug\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/lib/Debug/VidarRender.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Vidar/VidarStreamSim/VidarSimOpenGL/Debug/VidarRender.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glad\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glfw\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS=1;_SCL_SECURE_NO_WARNINGS=1;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="G:/Vidar/VidarStreamSim/VidarSimOpenGL";WINDOWS;ASSET_PATH="G:/Vidar/VidarStreamSim/VidarSimOpenGL/resources";GLFW_DLL;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS=1;_SCL_SECURE_NO_WARNINGS=1;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"G:/Vidar/VidarStreamSim/VidarSimOpenGL\";WINDOWS;ASSET_PATH=\"G:/Vidar/VidarStreamSim/VidarSimOpenGL/resources\";GLFW_DLL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glad\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glfw\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glad\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glfw\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Release\assimp-vc140-mt.lib;lib\Release\glfw3dll.lib;lib\Release\zlibstatic.lib;lib\Release\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/lib/Release/VidarRender.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Vidar/VidarStreamSim/VidarSimOpenGL/Release/VidarRender.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glad\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glfw\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS=1;_SCL_SECURE_NO_WARNINGS=1;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="G:/Vidar/VidarStreamSim/VidarSimOpenGL";WINDOWS;ASSET_PATH="G:/Vidar/VidarStreamSim/VidarSimOpenGL/resources";GLFW_DLL;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS=1;_SCL_SECURE_NO_WARNINGS=1;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"G:/Vidar/VidarStreamSim/VidarSimOpenGL\";WINDOWS;ASSET_PATH=\"G:/Vidar/VidarStreamSim/VidarSimOpenGL/resources\";GLFW_DLL;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glad\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glfw\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glad\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glfw\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\MinSizeRel\assimp-vc140-mt.lib;lib\MinSizeRel\glfw3dll.lib;lib\MinSizeRel\zlibstatic.lib;lib\MinSizeRel\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/lib/MinSizeRel/VidarRender.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/VidarRender/MinSizeRel/VidarRender.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glad\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glfw\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS=1;_SCL_SECURE_NO_WARNINGS=1;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="G:/Vidar/VidarStreamSim/VidarSimOpenGL";WINDOWS;ASSET_PATH="G:/Vidar/VidarStreamSim/VidarSimOpenGL/resources";GLFW_DLL;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS=1;_SCL_SECURE_NO_WARNINGS=1;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"G:/Vidar/VidarStreamSim/VidarSimOpenGL\";WINDOWS;ASSET_PATH=\"G:/Vidar/VidarStreamSim/VidarSimOpenGL/resources\";GLFW_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glad\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glfw\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources;G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glad\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glfw\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb;G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\RelWithDebInfo\assimp-vc140-mt.lib;lib\RelWithDebInfo\glfw3dll.lib;lib\RelWithDebInfo\zlibstatic.lib;lib\RelWithDebInfo\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/lib/RelWithDebInfo/VidarRender.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/VidarRender/RelWithDebInfo/VidarRender.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/Vidar/VidarStreamSim/VidarSimOpenGL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Vidar/VidarStreamSim/VidarSimOpenGL -BG:/Vidar/VidarStreamSim/VidarSimOpenGL/build --check-stamp-file G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeCCompiler.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeSystem.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\macros.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\modules\add_ide_support.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\modules\clang_tidy_support.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\modules\sanitizers_support.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/Vidar/VidarStreamSim/VidarSimOpenGL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Vidar/VidarStreamSim/VidarSimOpenGL -BG:/Vidar/VidarStreamSim/VidarSimOpenGL/build --check-stamp-file G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeCCompiler.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeSystem.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\macros.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\modules\add_ide_support.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\modules\clang_tidy_support.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\modules\sanitizers_support.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/Vidar/VidarStreamSim/VidarSimOpenGL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Vidar/VidarStreamSim/VidarSimOpenGL -BG:/Vidar/VidarStreamSim/VidarSimOpenGL/build --check-stamp-file G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeCCompiler.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeSystem.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\macros.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\modules\add_ide_support.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\modules\clang_tidy_support.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\modules\sanitizers_support.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/Vidar/VidarStreamSim/VidarSimOpenGL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Vidar/VidarStreamSim/VidarSimOpenGL -BG:/Vidar/VidarStreamSim/VidarSimOpenGL/build --check-stamp-file G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeCCompiler.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\3.16.2\CMakeSystem.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\macros.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\modules\add_ide_support.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\modules\clang_tidy_support.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\cmake\modules\sanitizers_support.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera\camera.cpp" />
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting\light.cpp" />
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh\mesh.cpp" />
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh\model.cpp" />
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp" />
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\material.cpp" />
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\shader.cpp" />
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\shape.cpp" />
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\skybox.cpp" />
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\texture.cpp" />
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\SImageData.cpp" />
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.cpp" />
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\bitbuffer.cpp" />
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\camera\camera.h" />
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\lighting\light.h" />
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh\mesh.h" />
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\mesh\model.h" />
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\material.h" />
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\shader.h" />
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\shape.h" />
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\skybox.h" />
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\resources\texture.h" />
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\GaussianBlurGeneric.h" />
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\Misc.h" />
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\SImageData.h" />
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.h" />
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\bitbuffer.h" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\gBuffer.frag" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\gBuffer.vert" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\latlongToCube.frag" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\latlongToCube.vert" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\directional.frag" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\directional.vert" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\environment.frag" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\environment.vert" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\integrateIBL.frag" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\integrateIBL.vert" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\irradianceIBL.frag" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\irradianceIBL.vert" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\lightingBRDF.frag" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\lightingBRDF.vert" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\point.frag" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\point.vert" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\prefilterIBL.frag" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\prefilterIBL.vert" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\simple.frag" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\lighting\simple.vert" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\postprocess\firstpass.frag" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\postprocess\postprocess.vert" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\postprocess\sao.frag" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\postprocess\sao.vert" />
+    <None Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\resources\shaders\postprocess\saoBlur.frag" />
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glad\src\glad.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui\imgui.cpp" />
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui\imgui_draw.cpp" />
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\imgui\imgui_impl_glfw_gl3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\ZERO_CHECK.vcxproj">
+      <Project>{ED35E4F0-3128-3C2E-901C-0F5FA8CA3342}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\contrib\irrXML\IrrXML.vcxproj">
+      <Project>{9C04596F-039E-333C-90EB-F9C5294870BF}</Project>
+      <Name>IrrXML</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\code\assimp.vcxproj">
+      <Project>{E2E28AAD-8FDB-3415-A47A-817F3A388C40}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\glfw\src\glfw.vcxproj">
+      <Project>{36FFCA7C-44B0-36EE-AEE5-73E76AC7C4C6}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{23DFA5CD-B64E-35F5-9A20-71062A4AD990}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
