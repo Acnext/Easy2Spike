@@ -1,0 +1,7 @@
+问题原因：
+在python3.7中，PIL库已经更名为：pillow
+
+解决方法：
+pip install pillow
+
+今天太阳也东升，而后西
