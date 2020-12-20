@@ -1,0 +1,16 @@
+# Blender MTL File: 'fan.blend'
+# Material Count: 1
+
+newmtl fan_material
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 2.000000 2.000000 2.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump -bm 0.140017 d:\\dev\\VidarRender\\model\\textures\\fan_Normal.png
+map_Kd fan_BaseColor.png
+map_Ns d:\\dev\\VidarRender\\model\\textures\\fan_Roughness.png
+refl d:\\dev\\VidarRender\\model\\textures\\fan_Metallic.png
