@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F66EACD4-B67F-3B00-8B8C-19C8D20F5A3C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>UpdateAssimpLibsDebugSymbolsAndDLLs</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\.;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\zlib;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Release/assimp-vc140-mt.dll G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/bin64/assimp-vc140-mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Release/assimp-vc140-mt.exp G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Release/assimp-vc140-mt.lib G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.dll G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/bin64/assimp-vc140-mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.exp G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.ilk G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.lib G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.pdb G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\.;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\zlib;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Release/assimp-vc140-mt.dll G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/bin64/assimp-vc140-mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Release/assimp-vc140-mt.exp G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Release/assimp-vc140-mt.lib G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.dll G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/bin64/assimp-vc140-mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.exp G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.ilk G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.lib G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.pdb G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\.;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\zlib;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Release/assimp-vc140-mt.dll G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/bin64/assimp-vc140-mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Release/assimp-vc140-mt.exp G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Release/assimp-vc140-mt.lib G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.dll G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/bin64/assimp-vc140-mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.exp G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.ilk G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.lib G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.pdb G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\.;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\zlib;G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Release/assimp-vc140-mt.dll G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/bin64/assimp-vc140-mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Release/assimp-vc140-mt.exp G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Release/assimp-vc140-mt.lib G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.dll G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/bin64/assimp-vc140-mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.exp G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.ilk G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.lib G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/code/Debug/assimp-vc140-mtd.pdb G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/lib64/assimp-vc140-mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Vidar/VidarStreamSim/VidarSimOpenGL -BG:/Vidar/VidarStreamSim/VidarSimOpenGL/build --check-stamp-file G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/3rdpart/assimp/assimp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPkgConfig.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\assimp-config-version.cmake.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\assimp-config.cmake.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\assimp.pc.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\FindDirectX.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\FindPkgMacros.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\FindZLIB.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\PrecompiledHeader.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\cmake_uninstall.cmake.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\config.h.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Vidar/VidarStreamSim/VidarSimOpenGL -BG:/Vidar/VidarStreamSim/VidarSimOpenGL/build --check-stamp-file G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/3rdpart/assimp/assimp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPkgConfig.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\assimp-config-version.cmake.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\assimp-config.cmake.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\assimp.pc.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\FindDirectX.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\FindPkgMacros.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\FindZLIB.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\PrecompiledHeader.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\cmake_uninstall.cmake.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\config.h.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Vidar/VidarStreamSim/VidarSimOpenGL -BG:/Vidar/VidarStreamSim/VidarSimOpenGL/build --check-stamp-file G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/3rdpart/assimp/assimp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPkgConfig.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\assimp-config-version.cmake.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\assimp-config.cmake.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\assimp.pc.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\FindDirectX.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\FindPkgMacros.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\FindZLIB.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\PrecompiledHeader.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\cmake_uninstall.cmake.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\config.h.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Vidar/VidarStreamSim/VidarSimOpenGL -BG:/Vidar/VidarStreamSim/VidarSimOpenGL/build --check-stamp-file G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/3rdpart/assimp/assimp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPkgConfig.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\assimp-config-version.cmake.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\assimp-config.cmake.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\assimp.pc.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\FindDirectX.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\FindPkgMacros.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\FindZLIB.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\PrecompiledHeader.cmake;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\cmake-modules\cmake_uninstall.cmake.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\config.h.in;G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\ZERO_CHECK.vcxproj">
+      <Project>{ED35E4F0-3128-3C2E-901C-0F5FA8CA3342}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

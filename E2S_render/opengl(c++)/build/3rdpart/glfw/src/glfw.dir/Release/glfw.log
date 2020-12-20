@@ -1,0 +1,17 @@
+﻿  Building Custom Rule G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/glfw/src/CMakeLists.txt
+  context.c
+  init.c
+  input.c
+  monitor.c
+  vulkan.c
+  window.c
+  win32_init.c
+  win32_joystick.c
+  win32_monitor.c
+  win32_time.c
+  win32_tls.c
+  win32_window.c
+  wgl_context.c
+  正在生成代码...
+    正在创建库 G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/lib/Release/glfw3dll.lib 和对象 G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/lib/Release/glfw3dll.exp
+  glfw.vcxproj -> G:\Vidar\VidarStreamSim\VidarSimOpenGL\Release\glfw3.dll

@@ -1,0 +1,52 @@
+﻿  Building Custom Rule G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/contrib/irrXML/CMakeLists.txt
+  irrXML.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(652,1): warning C4127: 条件表达式是常量
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(652,1): message : 考虑改用 "if constexpr" 语句
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(597): message : 查看对正在编译的函数 模板 实例化“void irr::io::CXMLReaderImpl<irr::io::char32,irr::io::IXMLBase>::convertTextData<irr::io::char32>(src_char_type *,char *,int)”的引用
+          with
+          [
+              src_char_type=irr::io::char32
+          ]
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(597): message : 查看对正在编译的函数 模板 实例化“void irr::io::CXMLReaderImpl<irr::io::char32,irr::io::IXMLBase>::convertTextData<irr::io::char32>(src_char_type *,char *,int)”的引用
+          with
+          [
+              src_char_type=irr::io::char32
+          ]
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(559): message : 在编译 类 模板 成员函数“bool irr::io::CXMLReaderImpl<irr::io::char32,irr::io::IXMLBase>::readFile(irr::io::IFileReadCallBack *)”时
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(47): message : 查看对正在编译的函数 模板 实例化“bool irr::io::CXMLReaderImpl<irr::io::char32,irr::io::IXMLBase>::readFile(irr::io::IFileReadCallBack *)”的引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\irrXML.cpp(132): message : 查看对正在编译的 类 模板 实例化“irr::io::CXMLReaderImpl<irr::io::char32,irr::io::IXMLBase>”的引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(647,33): warning C4127: 条件表达式是常量
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(648,1): message : 考虑改用 "if constexpr" 语句
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(625): message : 查看对正在编译的函数 模板 实例化“void irr::io::CXMLReaderImpl<irr::io::char32,irr::io::IXMLBase>::convertTextData<char>(src_char_type *,char *,int)”的引用
+          with
+          [
+              src_char_type=char
+          ]
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(625): message : 查看对正在编译的函数 模板 实例化“void irr::io::CXMLReaderImpl<irr::io::char32,irr::io::IXMLBase>::convertTextData<char>(src_char_type *,char *,int)”的引用
+          with
+          [
+              src_char_type=char
+          ]
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(687,1): warning C4127: 条件表达式是常量
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(687,1): message : 考虑改用 "if constexpr" 语句
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(649): message : 查看对正在编译的函数 模板 实例化“void irr::io::CXMLReaderImpl<irr::io::char32,irr::io::IXMLBase>::convertToLittleEndian<src_char_type>(src_char_type *)”的引用
+          with
+          [
+              src_char_type=irr::io::char32
+          ]
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(649): message : 查看对正在编译的函数 模板 实例化“void irr::io::CXMLReaderImpl<irr::io::char32,irr::io::IXMLBase>::convertToLittleEndian<src_char_type>(src_char_type *)”的引用
+          with
+          [
+              src_char_type=irr::io::char32
+          ]
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(597): message : 查看对正在编译的函数 模板 实例化“void irr::io::CXMLReaderImpl<irr::io::char32,irr::io::IXMLBase>::convertTextData<irr::io::char32>(src_char_type *,char *,int)”的引用
+          with
+          [
+              src_char_type=irr::io::char32
+          ]
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\irrXML\CXMLReaderImpl.h(597): message : 查看对正在编译的函数 模板 实例化“void irr::io::CXMLReaderImpl<irr::io::char32,irr::io::IXMLBase>::convertTextData<irr::io::char32>(src_char_type *,char *,int)”的引用
+          with
+          [
+              src_char_type=irr::io::char32
+          ]
+  IrrXML.vcxproj -> G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\lib\Debug\IrrXML.lib

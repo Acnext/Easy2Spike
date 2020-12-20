@@ -1,0 +1,377 @@
+﻿  Building Custom Rule G:/Vidar/VidarStreamSim/VidarSimOpenGL/3rdpart/assimp/assimp/code/CMakeLists.txt
+  Assimp.cpp
+  BaseImporter.cpp
+  BaseProcess.cpp
+  PostStepRegistry.cpp
+  ImporterRegistry.cpp
+  DefaultIOStream.cpp
+  DefaultIOSystem.cpp
+  CInterfaceIOWrapper.cpp
+  Importer.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FileSystemFilter.h(301,1): warning C4458: “sep”的声明隐藏了类成员 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BaseImporter.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FileSystemFilter.h(340,10): message : 参见“Assimp::FileSystemFilter::sep”的声明 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BaseImporter.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSHelper.h(492,2): warning C4315: “Assimp::D3DS::Texture”: 成员“Assimp::D3DS::Texture::mMapName”的“this”指针可能不是构造函数预期的对齐 8 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ImporterRegistry.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSHelper.h(492,2): message : 此诊断出现在编译器生成的函数“Assimp::D3DS::Texture::Texture(Assimp::D3DS::Texture &&)”中 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ImporterRegistry.cpp)
+  SGSpatialSort.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BaseImporter.cpp(167,36): warning C4244: “=”: 从“int”转换到“char”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BaseImporter.cpp(188,41): warning C4244: “参数”: 从“int”转换到“const _Elem”，可能丢失数据
+          with
+          [
+              _Elem=char
+          ]
+  VertexTriangleAdjacency.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\algorithm(1310,24): warning C4244: “=”: 从“int”转换到“char”，可能丢失数据 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BaseImporter.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BaseImporter.cpp(245): message : 查看对正在编译的函数 模板 实例化“_OutIt std::transform<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,int(__cdecl *)(int)>(const _InIt,const _InIt,_OutIt,_Fn)”的引用
+          with
+          [
+              _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Elem=char,
+              _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Fn=int (__cdecl *)(int)
+          ]
+  SpatialSort.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\Importer.cpp(496,61): warning C4459: “BufferSize”的声明隐藏了全局声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp/ParsingUtils.h(65,27): message : 参见“Assimp::BufferSize”的声明 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\Importer.cpp)
+  SceneCombiner.cpp
+  ScenePreprocessor.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\algorithm(1310,24): warning C4244: “=”: 从“int”转换到“char”，可能丢失数据 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\Importer.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\Importer.cpp(959): message : 查看对正在编译的函数 模板 实例化“_OutIt std::transform<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,int(__cdecl *)(int)>(const _InIt,const _InIt,_OutIt,_Fn)”的引用
+          with
+          [
+              _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Elem=char,
+              _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Fn=int (__cdecl *)(int)
+          ]
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SpatialSort.cpp(226,57): warning C4127: 条件表达式是常量
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SpatialSort.cpp(226,57): message : 考虑改用 "if constexpr" 语句
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SpatialSort.cpp(229,65): warning C4127: 条件表达式是常量
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SpatialSort.cpp(229,65): message : 考虑改用 "if constexpr" 语句
+  SkeletonMeshBuilder.cpp
+  SplitByBoneCountProcess.cpp
+  ScaleProcess.cpp
+  StandardShapes.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SceneCombiner.cpp(716,90): warning C4457: “it”的声明隐藏了函数参数
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SceneCombiner.cpp(699,81): message : 参见“it”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SceneCombiner.cpp(716,90): warning C4457: “end”的声明隐藏了函数参数
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SceneCombiner.cpp(700,42): message : 参见“end”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SceneCombiner.cpp(852,30): warning C4456: “pv2”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SceneCombiner.cpp(789,21): message : 参见“pv2”的声明
+  TargetAnimation.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\StandardShapes.cpp(153,32): warning C4456: “i”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\StandardShapes.cpp(148,23): message : 参见“i”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\StandardShapes.cpp(469,28): warning C4456: “s”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\StandardShapes.cpp(423,13): message : 参见“s”的声明
+  RemoveComments.cpp
+  Subdivision.cpp
+  scene.cpp
+  Bitmap.cpp
+  Version.cpp
+  CreateAnimMesh.cpp
+  DefaultLogger.cpp
+  Exporter.cpp
+  AssimpCExport.cpp
+  CalcTangentsProcess.cpp
+  ComputeUVMappingProcess.cpp
+  ConvertToLHProcess.cpp
+  EmbedTexturesProcess.cpp
+  FindDegenerates.cpp
+  FindInstancesProcess.cpp
+  FindInvalidDataProcess.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\CalcTangentsProcess.cpp(278): warning C4701: 使用了可能未初始化的局部变量“posEpsilon”
+  FixNormalsStep.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\algorithm(1310,24): warning C4244: “=”: 从“int”转换到“char”，可能丢失数据 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\EmbedTexturesProcess.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\EmbedTexturesProcess.cpp(141): message : 查看对正在编译的函数 模板 实例化“_OutIt std::transform<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,int(__cdecl *)(int)>(const _InIt,const _InIt,_OutIt,_Fn)”的引用
+          with
+          [
+              _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Elem=char,
+              _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Fn=int (__cdecl *)(int)
+          ]
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FindInstancesProcess.cpp(181,39): warning C4456: “i”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FindInstancesProcess.cpp(135,27): message : 参见“i”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FindInstancesProcess.cpp(195,39): warning C4456: “i”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FindInstancesProcess.cpp(135,27): message : 参见“i”的声明
+  GenFaceNormalsProcess.cpp
+  GenVertexNormalsProcess.cpp
+  PretransformVertices.cpp
+  ImproveCacheLocality.cpp
+  JoinVerticesProcess.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FindInvalidDataProcess.cpp(105): warning C4706: 条件表达式内的赋值
+  LimitBoneWeightsProcess.cpp
+  RemoveRedundantMaterials.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FindInvalidDataProcess.cpp(131): warning C4706: 条件表达式内的赋值
+  RemoveVCProcess.cpp
+  SortByPTypeProcess.cpp
+  SplitLargeMeshes.cpp
+  TextureTransform.cpp
+  TriangulateProcess.cpp
+  ValidateDataStructure.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SortByPTypeProcess.cpp(256,36): warning C4456: “i”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SortByPTypeProcess.cpp(155,23): message : 参见“i”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SortByPTypeProcess.cpp(265,36): warning C4456: “i”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SortByPTypeProcess.cpp(155,23): message : 参见“i”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SortByPTypeProcess.cpp(347,50): warning C4456: “real”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SortByPTypeProcess.cpp(216,27): message : 参见“real”的声明
+  OptimizeGraph.cpp
+  OptimizeMeshes.cpp
+  DeboneProcess.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\TextureTransform.cpp(108): warning C4706: 条件表达式内的赋值
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\TextureTransform.cpp(130): warning C4706: 条件表达式内的赋值
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\TextureTransform.cpp(163): warning C4706: 条件表达式内的赋值
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ValidateDataStructure.cpp(581,71): warning C4389: “==”: 有符号/无符号不匹配
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ValidateDataStructure.cpp(601,29): warning C4389: “!=”: 有符号/无符号不匹配
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SplitLargeMeshes.cpp(630): warning C4706: 条件表达式内的赋值
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\OptimizeGraph.cpp(191,40): warning C4458: “meshes”的声明隐藏了类成员
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\OptimizeGraph.h(140,31): message : 参见“Assimp::OptimizeGraphProcess::meshes”的声明 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\OptimizeGraph.cpp)
+  ProcessHelper.cpp
+  MakeVerboseFormat.cpp
+  MaterialSystem.cpp
+  StepExporter.cpp
+  3DSConverter.cpp
+  3DSLoader.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\MakeVerboseFormat.cpp(132,40): warning C4456: “a”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\MakeVerboseFormat.cpp(124,23): message : 参见“a”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\MakeVerboseFormat.cpp(157,30): warning C4456: “p”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\MakeVerboseFormat.cpp(108,18): message : 参见“p”的声明
+  3DSExporter.cpp
+  ColladaLoader.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\MaterialSystem.cpp(329,32): warning C4389: “==”: 有符号/无符号不匹配
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\MaterialSystem.cpp(531,28): warning C4127: 条件表达式是常量
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\MaterialSystem.cpp(531,28): message : 考虑改用 "if constexpr" 语句
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\MaterialSystem.cpp(561): warning C4706: 条件表达式内的赋值
+  ColladaParser.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSHelper.h(492,2): warning C4315: “Assimp::D3DS::Texture”: 成员“Assimp::D3DS::Texture::mMapName”的“this”指针可能不是构造函数预期的对齐 8 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSConverter.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSHelper.h(492,2): message : 此诊断出现在编译器生成的函数“Assimp::D3DS::Texture::Texture(Assimp::D3DS::Texture &&)”中 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSConverter.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSHelper.h(492,2): warning C4315: “Assimp::D3DS::Texture”: 成员“Assimp::D3DS::Texture::mMapName”的“this”指针可能不是构造函数预期的对齐 8 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSLoader.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSHelper.h(492,2): message : 此诊断出现在编译器生成的函数“Assimp::D3DS::Texture::Texture(Assimp::D3DS::Texture &&)”中 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSLoader.cpp)
+  ColladaExporter.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSLoader.cpp(163,55): warning C4458: “stream”的声明隐藏了类成员
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSLoader.h(255,21): message : 参见“Assimp::Discreet3DSImporter::stream”的声明 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSLoader.cpp)
+  ObjFileImporter.cpp
+  ObjFileMtlImporter.cpp
+  ObjFileParser.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSConverter.cpp(872,1): warning C4315: “Assimp::D3DS::Texture”: 成员“Assimp::D3DS::Texture::mMapName”的“this”指针可能不是构造函数预期的对齐 8
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSConverter.cpp(872,1): message : 此诊断出现在编译器生成的函数“Assimp::D3DS::Texture::Texture(const Assimp::D3DS::Texture &)”中
+  ObjExporter.cpp
+  BlenderLoader.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSLoader.cpp(1432,1): warning C4315: “Assimp::D3DS::Texture”: 成员“Assimp::D3DS::Texture::mMapName”的“this”指针可能不是构造函数预期的对齐 8
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSLoader.cpp(1432,1): message : 此诊断出现在编译器生成的函数“Assimp::D3DS::Texture::Texture(const Assimp::D3DS::Texture &)”中
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ColladaParser.cpp(509,31): warning C4456: “indexID”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ColladaParser.cpp(471,9): message : 参见“indexID”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSLoader.cpp(609): warning C4706: 条件表达式内的赋值
+  BlenderDNA.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(3865,27): warning C4244: “=”: 从“const _Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty=char
+          ] (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ObjFileParser.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ObjFileParser.cpp(83): message : 查看对正在编译的函数 模板 实例化“_OutIt *std::fill_n<char*,size_t,int>(_OutIt,const _Diff,const _Ty &)”的引用
+          with
+          [
+              _OutIt=char *,
+              _Diff=size_t,
+              _Ty=int
+          ]
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderLoader.cpp(431,26): warning C4457: “tex”的声明隐藏了函数参数
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderLoader.cpp(420,86): message : 参见“tex”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderLoader.cpp(441,36): warning C4244: “=”: 从“int”转换到“char”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderLoader.cpp(442,36): warning C4244: “=”: 从“int”转换到“char”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderLoader.cpp(443,36): warning C4244: “=”: 从“int”转换到“char”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderLoader.cpp(1043,36): warning C4456: “i”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderLoader.cpp(1036,18): message : 参见“i”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderLoader.cpp(1083,36): warning C4456: “i”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderLoader.cpp(1076,18): message : 参见“i”的声明
+  BlenderScene.cpp
+  BlenderModifier.cpp
+  BlenderBMesh.cpp
+  BlenderTessellator.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.cpp(209,36): warning C4456: “i”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.cpp(199,23): message : 参见“i”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.cpp(218,36): warning C4456: “i”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.cpp(199,23): message : 参见“i”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.cpp(225,36): warning C4456: “i”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.cpp(199,23): message : 参见“i”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.cpp(232,36): warning C4456: “i”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.cpp(199,23): message : 参见“i”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.cpp(239,36): warning C4456: “i”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.cpp(199,23): message : 参见“i”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.cpp(249,36): warning C4456: “i”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.cpp(199,23): message : 参见“i”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.cpp(257,36): warning C4456: “i”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.cpp(199,23): message : 参见“i”的声明
+  FBXImporter.cpp
+  FBXParser.cpp
+  FBXTokenizer.cpp
+  FBXConverter.cpp
+  FBXUtil.cpp
+  FBXDocument.cpp
+  FBXProperties.cpp
+  FBXMeshGeometry.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(501,99): warning C4458: “out”的声明隐藏了类成员
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.h(444,20): message : 参见“Assimp::FBX::Converter::out”的声明 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp)
+  FBXMaterial.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(818,19): warning C4456: “interpreted”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(816,41): message : 参见“interpreted”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(820,19): warning C4456: “interpreted”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(818,47): message : 参见“interpreted”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(822,19): warning C4456: “interpreted”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(820,52): message : 参见“interpreted”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(824,19): warning C4456: “interpreted”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(822,49): message : 参见“interpreted”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(826,19): warning C4456: “interpreted”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(824,55): message : 参见“interpreted”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(838,37): warning C4458: “meshes”的声明隐藏了类成员
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.h(415,26): message : 参见“Assimp::FBX::Converter::meshes”的声明 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(1237,41): warning C4458: “out”的声明隐藏了类成员
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.h(444,20): message : 参见“Assimp::FBX::Converter::out”的声明 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(1383,49): warning C4458: “out”的声明隐藏了类成员
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.h(444,20): message : 参见“Assimp::FBX::Converter::out”的声明 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(1492,81): warning C4458: “textures”的声明隐藏了类成员
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.h(420,29): message : 参见“Assimp::FBX::Converter::textures”的声明 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(1512,34): warning C4456: “it”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(1496,32): message : 参见“it”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(1576,58): warning C4457: “mesh”的声明隐藏了函数参数
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(1494,53): message : 参见“mesh”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(1701,58): warning C4457: “mesh”的声明隐藏了函数参数
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(1646,57): message : 参见“mesh”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(1769,78): warning C4458: “textures”的声明隐藏了类成员
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.h(420,29): message : 参见“Assimp::FBX::Converter::textures”的声明 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(2002,60): warning C4458: “animations”的声明隐藏了类成员
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.h(417,31): message : 参见“Assimp::FBX::Converter::animations”的声明 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(2133,39): warning C4456: “name”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(2096,17): message : 参见“name”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDocument.cpp(428,27): warning C4456: “sc”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDocument.cpp(416,18): message : 参见“sc”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDocument.cpp(443,57): warning C4456: “it”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDocument.cpp(426,36): message : 参见“it”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDocument.cpp(444,33): warning C4456: “el”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDocument.cpp(427,24): message : 参见“el”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDocument.cpp(445,31): warning C4456: “sc”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDocument.cpp(428,22): message : 参见“sc”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDocument.cpp(451,36): warning C4456: “tok”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDocument.cpp(434,26): message : 参见“tok”的声明
+  FBXModel.cpp
+  FBXAnimation.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXProperties.cpp(212,63): warning C4458: “element”的声明隐藏了类成员
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXProperties.h(128,26): message : 参见“Assimp::FBX::PropertyTable::element”的声明 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXProperties.cpp)
+  FBXNodeAttribute.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(4367,21): warning C4389: “==”: 有符号/无符号不匹配 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(4383): message : 查看对正在编译的函数 模板 实例化“_InIt std::_Find_unchecked1<_InIt,_Ty>(_InIt,const _InIt,const _Ty &,std::false_type)”的引用
+          with
+          [
+              _InIt=const int *,
+              _Ty=unsigned int
+          ] (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(4389): message : 查看对正在编译的函数 模板 实例化“_InIt std::_Find_unchecked<const int*,_Ty>(const _InIt,const _InIt,const _Ty &)”的引用
+          with
+          [
+              _InIt=const int *,
+              _Ty=unsigned int
+          ] (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(1582): message : 查看对正在编译的函数 模板 实例化“_InIt std::find<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,unsigned int>(_InIt,const _InIt,const unsigned int &)”的引用
+          with
+          [
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+              _Ty=int
+          ]
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXModel.cpp(88,41): warning C4458: “element”的声明隐藏了类成员
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDocument.h(158,20): message : 参见“Assimp::FBX::Object::element”的声明 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXModel.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\algorithm(1310,24): warning C4244: “=”: 从“int”转换到“char”，可能丢失数据 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXMaterial.cpp)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXMaterial.cpp(88): message : 查看对正在编译的函数 模板 实例化“_OutIt std::transform<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,int(__cdecl *)(int)>(const _InIt,const _InIt,_OutIt,_Fn)”的引用
+          with
+          [
+              _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Elem=char,
+              _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Fn=int (__cdecl *)(int)
+          ]
+  FBXDeformer.cpp
+  FBXBinaryTokenizer.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDocument.cpp(530): warning C4706: 条件表达式内的赋值
+  FBXDocumentUtil.cpp
+  FBXExporter.cpp
+  FBXExportNode.cpp
+  FBXExportProperty.cpp
+  shapes.cc
+  advancing_front.cc
+  cdt.cc
+  sweep.cc
+  sweep_context.cc
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp(1534): warning C4701: 使用了可能未初始化的局部变量“index”
+  clipper.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc(55,28): warning C4456: “i”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc(52,15): message : 参见“i”的声明
+  OpenDDLParser.cpp
+  DDLNode.cpp
+  OpenDDLCommon.cpp
+  OpenDDLExport.cpp
+  Value.cpp
+  OpenDDLStream.cpp
+  o3dgcArithmeticCodec.cpp
+  o3dgcDynamicVectorDecoder.cpp
+  o3dgcDynamicVectorEncoder.cpp
+  o3dgcTools.cpp
+  o3dgcTriangleFans.cpp
+  ioapi.c
+  unzip.c
+  zip.c
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\zip\src\miniz.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\zip\src\zip.c)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c(69,11): warning C4131: “fopen_file_func”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c(68,35): warning C4100: “opaque”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c(91,11): warning C4131: “fread_file_func”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c(90,34): warning C4100: “opaque”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c(103,11): warning C4131: “fwrite_file_func”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c(102,35): warning C4100: “opaque”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c(114,11): warning C4131: “ftell_file_func”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c(113,33): warning C4100: “opaque”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c(123,11): warning C4131: “fseek_file_func”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c(122,33): warning C4100: “opaque”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c(149,11): warning C4131: “fclose_file_func”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c(148,33): warning C4100: “opaque”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c(158,11): warning C4131: “ferror_file_func”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c(157,33): warning C4100: “opaque”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c(167,20): warning C4131: “fill_fopen_filefunc”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\crypt.h(35,62): warning C4100: “pcrc_32_tab”: 未引用的形参 (编译源文件 G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c)
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(176,28): warning C4131: “unzlocal_getByte”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(206,28): warning C4131: “unzlocal_getShort”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(234,28): warning C4131: “unzlocal_getLong”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(267,15): warning C4131: “strcmpcasenosensitive_internal”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(310,15): warning C4131: “unzStringFileNameCompare”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(336,28): warning C4131: “unzlocal_SearchCentralDir”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(402,16): warning C4131: “unzOpen2”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(505,16): warning C4131: “unzOpen”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(516,13): warning C4131: “unzClose”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(537,13): warning C4131: “unzGetGlobalInfo”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(553,11): warning C4131: “unzlocal_DosDateToTmuDate”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(587,13): warning C4131: “unzlocal_GetCurrentFileInfoInternal”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(764,13): warning C4131: “unzGetCurrentFileInfo”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(784,13): warning C4131: “unzGoToFirstFile”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(806,13): warning C4131: “unzGoToNextFile”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(840,13): warning C4131: “unzLocateFile”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(919,13): warning C4131: “unzGetFilePos”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(937,13): warning C4131: “unzGoToFilePos”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(975,10): warning C4131: “unzlocal_CheckCurrentFileCoherencyHeader”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(1065,13): warning C4131: “unzOpenCurrentFile3”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(1210,13): warning C4131: “unzOpenCurrentFile”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(1216,13): warning C4131: “unzOpenCurrentFilePassword”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(1223,13): warning C4131: “unzOpenCurrentFile2”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(1242,13): warning C4131: “unzReadCurrentFile”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(1310,70): warning C4244: “=”: 从“int”转换到“char”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(1403,13): warning C4131: “unztell”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(1423,13): warning C4131: “unzeof”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(1456,13): warning C4131: “unzGetLocalExtrafield”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(1507,13): warning C4131: “unzCloseCurrentFile”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(1550,13): warning C4131: “unzGetGlobalComment”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(1554,9): warning C4189: “err”: 局部变量已初始化但不引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(1582,13): warning C4131: “unzGetOffset”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(1587,32): warning C4245: “return”: 从“int”转换到“uLong”，有符号/无符号不匹配
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c(1598,17): warning C4131: “unzSetOffset”: 使用老样式声明符
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\zip\src\zip.c(89): warning C4706: 条件表达式内的赋值
+    正在创建库 G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/lib/Release/assimp-vc140-mt.lib 和对象 G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/lib/Release/assimp-vc140-mt.exp
+  assimp.vcxproj -> G:\Vidar\VidarStreamSim\VidarSimOpenGL\Release\assimp-vc140-mt.dll

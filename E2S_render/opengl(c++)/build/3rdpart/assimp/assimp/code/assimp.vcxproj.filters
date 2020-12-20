@@ -1,0 +1,1020 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\CInterfaceIOWrapper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ScaleProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\EmbedTexturesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\StepExporter.cpp">
+      <Filter>Step</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSExporter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ColladaLoader.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ColladaParser.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ColladaExporter.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ObjFileImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ObjFileMtlImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ObjFileParser.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ObjExporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderLoader.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderDNA.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderScene.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderBMesh.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderTessellator.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXImporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDocument.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXProperties.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXMeshGeometry.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXMaterial.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXModel.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXAnimation.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXNodeAttribute.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDeformer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXBinaryTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDocumentUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXExporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXExportNode.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXExportProperty.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\clipper\clipper.cpp">
+      <Filter>Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\openddlparser\code\Value.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\zip\src\zip.c">
+      <Filter>ziplib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\CInterfaceIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ScaleProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\EmbedTexturesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\PolyTools.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\STEPFile.h">
+      <Filter>Step</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\StepExporter.h">
+      <Filter>Step</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\3DSExporter.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ColladaHelper.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ColladaLoader.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ColladaParser.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ColladaExporter.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ObjFileData.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ObjFileImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ObjFileMtlImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ObjFileParser.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ObjTools.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\ObjExporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderLoader.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderDNA.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderDNA.inl">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderScene.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderSceneGen.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderIntermediate.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderModifier.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderBMesh.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\BlenderTessellator.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXCompileConfig.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXImporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXTokenizer.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXImportSettings.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXConverter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXUtil.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXDocument.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXProperties.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXMeshGeometry.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXExporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXExportNode.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXExportProperty.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\FBXCommon.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\crypt.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\ioapi.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\unzip\unzip.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\clipper\clipper.hpp">
+      <Filter>Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\zip\src\miniz.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\contrib\zip\src\zip.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\build\3rdpart\assimp\assimp\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\pbrmaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\IOStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\DefaultIOStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\DefaultIOSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\SceneCombiner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\fast_atof.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\qnan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\BaseImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\Hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\MemoryIOWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\ParsingUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\StreamReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\StreamWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\StringComparison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\StringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\SGSpatialSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\GenericProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\SpatialSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\SkeletonMeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\SmoothingGroups.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\SmoothingGroups.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\StandardShapes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\RemoveComments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\Subdivision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\LineSplitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\TinyFormatter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\Profiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\LogAux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\XMLTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\IOStreamBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\CreateAnimMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\MathFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\Macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\Exceptional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\ByteSwapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Vidar\VidarStreamSim\VidarSimOpenGL\3rdpart\assimp\assimp\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{98A726E6-94B0-3718-9096-622B61D20FA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLEND">
+      <UniqueIdentifier>{DE270FE6-20E5-3F68-B434-8D250C8886B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA">
+      <UniqueIdentifier>{4140CA66-805D-395C-BFF4-AD0D2838F866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clipper">
+      <UniqueIdentifier>{DAF21EA7-09C4-3FE0-B9A9-7BA854A003F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{B9EC096A-A1D0-3564-AF6E-F543A6791BE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{0F65FAC2-797E-35E8-87AF-8725F66BBDFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{BAEDDD30-690C-3436-8F61-4C2AB372C79B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{623CEA51-9719-3E12-B1A6-D8B62303C8A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4816F995-65ED-34B3-AA98-9461D234D56A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{D3C24C21-04FF-32E4-85B1-24D6BE447FFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{B4BCD630-C0C7-37ED-BC72-C80CEE258F3F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{B64CB351-20D9-32F6-AFB1-F4B03F7B88D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{23FAE7B4-2965-3FDC-BE5A-0CA4DAF9CC56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Poly2Tri">
+      <UniqueIdentifier>{D75D1D1C-D3F1-3E0E-8E59-7016E32D774E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{64836BF3-AB7E-37BA-BF0A-5C0C44309A5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2F0E5862-3175-3CF1-894D-7FCF638B988E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Step">
+      <UniqueIdentifier>{C5D7B2C3-6814-3B53-897E-81CAB5F5BE21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="open3dgc">
+      <UniqueIdentifier>{593EDEE8-28E2-378E-975A-D0C3333D31AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openddl_parser">
+      <UniqueIdentifier>{C7B3C670-3C94-35B3-8241-8559CC33389F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unzip">
+      <UniqueIdentifier>{EE1E1AA5-E56E-3303-A4E6-B8F599464DE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ziplib">
+      <UniqueIdentifier>{BC3609C8-071C-335B-8E6D-94FF4C6D25E0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
