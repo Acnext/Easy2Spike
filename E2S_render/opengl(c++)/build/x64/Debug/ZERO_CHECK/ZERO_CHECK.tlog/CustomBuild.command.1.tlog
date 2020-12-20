@@ -1,0 +1,10 @@
+^G:\VIDAR\VIDARSTREAMSIM\VIDARSIMOPENGL\BUILD\CMAKEFILES\BB48AA24D13CBD49B402545F9D25C64E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Vidar/VidarStreamSim/VidarSimOpenGL -BG:/Vidar/VidarStreamSim/VidarSimOpenGL/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/Vidar/VidarStreamSim/VidarSimOpenGL/build/VidarRender.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

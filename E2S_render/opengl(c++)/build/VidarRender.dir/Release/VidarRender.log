@@ -1,0 +1,93 @@
+﻿  main.cpp
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm\glm\detail/type_vec2.hpp(61,1): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm\glm\detail/type_vec2.hpp(215): message : 查看对正在编译的 类 模板 实例化“glm::tvec2<T,P>”的引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm\glm\detail/type_vec2.hpp(62,1): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm\glm\detail/type_vec2.hpp(63,1): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm\glm\detail/type_vec3.hpp(61,1): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm\glm\detail/type_vec3.hpp(237): message : 查看对正在编译的 类 模板 实例化“glm::tvec3<T,P>”的引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm\glm\detail/type_vec3.hpp(62,1): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm\glm\detail/type_vec3.hpp(63,1): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm\glm\detail/type_vec4.hpp(115,1): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm\glm\detail/type_vec4.hpp(336): message : 查看对正在编译的 类 模板 实例化“glm::tvec4<T,P>”的引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm\glm\detail/type_vec4.hpp(116,1): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\glm\glm\detail/type_vec4.hpp(117,1): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include\assimp\vector3.h(131,1): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include\assimp\vector3.h(134): message : 查看对正在编译的 类 模板 实例化“aiVector3t<TReal>”的引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include\assimp\vector2.h(101,1): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include\assimp\vector2.h(105): message : 查看对正在编译的 类 模板 实例化“aiVector2t<TReal>”的引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include\assimp\color4.h(92,1): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include\assimp\color4.h(95): message : 查看对正在编译的 类 模板 实例化“aiColor4t<TReal>”的引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include\assimp\matrix3x3.h(169,1): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include\assimp\matrix3x3.h(173): message : 查看对正在编译的 类 模板 实例化“aiMatrix3x3t<TReal>”的引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include\assimp\matrix4x4.h(231,1): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\assimp\include\assimp\matrix4x4.h(235): message : 查看对正在编译的 类 模板 实例化“aiMatrix4x4t<TReal>”的引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb\stb_image.h(4503,73): warning C4244: “=”: 从“int”转换到“stbi__uint16”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb\stb_image.h(5082,20): warning C4244: “初始化”: 从“int”转换到“stbi__uint16”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb\stb_image.h(5089,22): warning C4244: “=”: 从“int”转换到“stbi_uc”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb\stb_image.h(5090,22): warning C4244: “=”: 从“int”转换到“stbi_uc”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\api\stb\stb_image.h(5091,22): warning C4244: “=”: 从“int”转换到“stbi_uc”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(75,15): warning C4244: “初始化”: 从“GLuint”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(76,15): warning C4244: “初始化”: 从“GLuint”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\bitbuffer.h(40,1): warning C4267: “初始化”: 从“size_t”转换到“uint8_t”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\bitbuffer.h(40,1): warning C4267: “初始化”: 从“size_t”转换到“const uint8_t”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\bitbuffer.h(54,1): warning C4267: “初始化”: 从“size_t”转换到“uint8_t”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\bitbuffer.h(54,1): warning C4267: “初始化”: 从“size_t”转换到“const uint8_t”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\bitbuffer.h(56,1): warning C4267: “+=”: 从“size_t”转换到“uint8_t”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\bitbuffer.h(99,1): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\bitbuffer.h(106,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\bitbuffer.h(117,1): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\bitbuffer.h(139,1): warning C4267: “return”: 从“size_t”转换到“uint32_t”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.h(99,23): warning C4458: “width”的声明隐藏了类成员
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.h(69,6): message : 参见“ImageToPulseSignal::width”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.h(99,34): warning C4458: “height”的声明隐藏了类成员
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.h(70,6): message : 参见“ImageToPulseSignal::height”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.h(148,1): warning C4456: “e”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.h(143,8): message : 参见“e”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.h(143,8): warning C4189: “e”: 局部变量已初始化但不引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.h(178,8): warning C4189: “t_num”: 局部变量已初始化但不引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.h(224,1): warning C4456: “e”的声明隐藏了上一个本地声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.h(219,8): message : 参见“e”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.h(198,79): warning C4100: “current_num”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.h(219,8): warning C4189: “e”: 局部变量已初始化但不引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\spike\VidarBits.h(243,8): warning C4189: “t_num”: 局部变量已初始化但不引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(193,20): warning C4018: “<”: 有符号/无符号不匹配
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(195,21): warning C4018: “<”: 有符号/无符号不匹配
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(228,28): warning C4459: “modelPosition”的声明隐藏了全局声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(122,11): message : 参见“modelPosition”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(231,32): warning C4459: “modelRotationAxis”的声明隐藏了全局声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(123,11): message : 参见“modelRotationAxis”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(232,25): warning C4459: “modelScale”的声明隐藏了全局声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(124,11): message : 参见“modelScale”的声明
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(554,30): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(580,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(835,68): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(836,68): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(837,53): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(838,77): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(839,65): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(840,53): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(366,26): warning C4100: “argv”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(366,14): warning C4100: “argc”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(376,24): warning C4189: “glfwMode”: 局部变量已初始化但不引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(907,44): warning C4244: “参数”: 从“GLuint”转换到“float”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(915,16): warning C4189: “kSupportedFileFormatsStr_”: 局部变量已初始化但不引用
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1412,31): warning C4244: “初始化”: 从“double”转换到“unsigned int”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1413,32): warning C4244: “初始化”: 从“double”转换到“unsigned int”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1423,121): warning C4244: “参数”: 从“GLuint”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1424,123): warning C4244: “参数”: 从“GLuint”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1465,78): warning C4100: “mode”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1465,52): warning C4100: “scancode”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1518,17): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1519,17): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1523,21): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1524,21): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1525,13): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1526,13): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1514,33): warning C4100: “window”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1533,76): warning C4100: “mods”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1533,40): warning C4100: “window”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1545,27): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1542,49): warning C4100: “xoffset”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1542,34): warning C4100: “window”: 未引用的形参
+G:\Vidar\VidarStreamSim\VidarSimOpenGL\src\renderer\main.cpp(1459,13): warning C4505: “error_callback”: 未引用的本地函数已移除
+  VidarRender.vcxproj -> G:\Vidar\VidarStreamSim\VidarSimOpenGL\Release\VidarRender.exe
