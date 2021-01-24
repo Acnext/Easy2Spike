@@ -6,3 +6,7 @@ You can use `vcpkg` to install these Libraries.
  . 
 ## Version requirements：
  we recommend to use visual 2015(or later).
+
+
+## multi scale sampling
+you need to change model.h, vidar.h and main.cpp.
